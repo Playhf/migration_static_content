@@ -1,0 +1,20 @@
+{
+    "name": "dima/test",
+    "description": "Dima test module",
+    "keywords": ["dima", "test", "module"],
+    "authors": [
+        {
+          "name": "Dima Rudenko",
+          "email": "symskougj@gmail.com",
+          "homepage": "https://github.com/dimaSumy"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0"
+    },
+    "version" : "0.0.1",
+    "autoload": {
+      "psr-4": { " ": ""},
+      "files": ["registration.php"]
+    }
+}
